@@ -3,7 +3,7 @@
     margin: 0%;
 
 }
-.about h2{
+.about  h2{
     text-align: center;
     padding-top: 3%;
 }
@@ -14,16 +14,79 @@
     padding-top: 2%;
     margin-left: 10%;
     height: 300px;
+    width: 450px;
+    margin-top: 1%;
    
 }
 .offer{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-.arrow{
- 
+.variety h2{
+    text-align: center;
+    padding-top: 3%; 
 }
-.piza{
+.vart{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
    
+}
+/* .one{
+    margin-right: 20%;
+}
+.two{
+    margin-left: 20%;
+} */
+.order{
+    text-align: center;
+    padding-top: 5%; 
+    background-position: center;
+    background-image: url('./images/slider2.jpg'); height: 600px; background-attachment: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 10%;
+    height: 680px;
+    
+}
+.here{
+
+    background-color: rgb(0,0,0,0.5);
+    opacity: 2.5;
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 550px;
+    width: 90%;
+    padding-top: 3%;  
+    font-size: 28px;
+}
+.contact{
+    height: 500px;
+
+   
+    
+}
+.con h2{
+    text-align: center;
+    padding-top: 3%;    
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3%;
+}
+
+ .last{
+    text-align: center;
+    margin-top: 10%;
+} 
+.lora{
+    margin-right: 10%;
+}
+.pic{
+    margin-left: 10%;
 }
