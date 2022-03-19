@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Oleo+Script:wght@400;700&display=swap');
+
 *{
     padding: 0%;
     margin: 0%;
 
+}
+.mb-3 span{
+    font-family: 'Dancing Script', cursive;
 }
 .about  h2{
     text-align: center;
@@ -28,19 +33,21 @@
     text-align: center;
     padding-top: 3%; 
 }
-.vart{
+
+ .vart{
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 3%;
    
+} 
+.vart-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
 }
-/* .one{
-    margin-right: 20%;
-}
-.two{
-    margin-left: 20%;
-} */
+
 .order{
     text-align: center;
     padding-top: 5%; 
@@ -69,9 +76,14 @@
    
     
 }
+.bow{
+    margin-top: 45%;
+}
+
+
 .con h2{
     text-align: center;
-    padding-top: 5%;    
+    padding-top: 3%;    
 }
 .loc{
     display: flex;
