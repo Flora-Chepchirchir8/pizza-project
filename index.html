@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza-project</title>
     <link rel="stylesheet" href="index.css">
+    
     <!-- Font Awesome -->
 <link
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -70,7 +71,7 @@ rel="stylesheet"
                 </li>
                
                 <li class="nav-item">
-                  <a class="nav-link" href="#order"  style="color: white; font-size: 20px;">Order</a>
+                  <a class="nav-link" href="#now"  style="color: white; font-size: 20px;">Order</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact"  style="color: white; font-size: 20px;">Contacts</a>
@@ -160,7 +161,7 @@ rel="stylesheet"
         <div class="card h-100">
           <img src="./images/pizzaa2.png" class="card-img-top" alt="" height="160px"/>
           <div class="card-body">
-            <h5 class="card-title" style="text-align: center;">Beriberi Pizza</h5>
+            <h5 class="card-title" style="text-align: center;">Periperi Pizza</h5>
          
           </div>
         
@@ -216,11 +217,83 @@ rel="stylesheet"
 </div>
 <!-- variety end -->
 <!-- Order -->
-<div class="order" id="order">
+<div class=" container-fluid order" id="now">
   <div class="here">
+    <div class="now">
   <h2 style="color: #28a745;">Order Here!!</h2>
    <p style="color: white; font-weight: bold; ">Order your Pizza here, we delivery at your doorstep!</p>
+  </div>
+  <div class="row">
+     <div class="col-md-6">
+      <form action="" id="myForm" id="order">
+        <label for="pizza" style="color: white;">Choose Pizza size</label><br>
+        <select name="pizza" id="pizza">
+          <option >select</option>
+          <option value="500">Small  Ksh 500</option>
+          <option value="700">Medium Ksh 700</option>
+          <option value="900">Large  Ksh 900</option>
+        </select><br>
+    
+        <label for="pizza" style="color: white;">Favourite Crust</label><br>
+        <select name="crust" id="crust">
+          <option >select</option>
+          <option value="150">Crispy  Ksh 150</option>
+          <option value="200">Stuffed Ksh 200</option>
+          <option value="250">Gluten-free Ksh 250</option>
+        </select><br>
+        <label for="pizza" style="color: white;">Select toppings</label><br>
+        <!-- <p style="color: white;">Select toppings </p> -->
+        <select name="" id="topping">
+          <option >select</option>
+          <option value="40">Bacon  Ksh 40</option>
+          <option value="50">Chicken  Ksh 50</option>
+          <option value="60">Sausage  Ksh 60 </option>
+         
+        </select><br>
+       <label for="price"style="color: white;" >Number of pizza</label><br>
+        <input type="number" id="quantity" min="1" placeholder="" required><br><br>
+        <button type="submit"  id="send" style="background-color: #ffa500; ">Place Order</button>
+       </form>
+    
+    
+    
+    
+    
+     </div>
+     <div class="col-md-6">
+      <div class="ourwork">
+        <!-- <p style="color:white; font-size: 30px; ">Place your order and pick it or request for Home delivery</p> -->
+      </div>
+      <div class="display" style="color:#28a745;"></div>
+      <div class="checkout">
+        <h5 class="mt-2 mb-2" style="color: white;">Want a home delivery with only sh 180? <br>
+       click the Delivery button</h5>
+        <!-- <button id="add">Add pizza</button><br> -->
+        <button class="mt-2" id="home" style="background-color: #ffa500; ">Delivery</button>
+        <button id="grand" style="background-color: #ffa500; ">Checkout</button>
+      </div><br>
+
+      <div class="userdeliver">
+        <form action="">
+          <p style="color: white;">Enter your details below:</p>
+          <div class="form-group">
+            <input type="text" id="name" class="form-control mb-3" value="" placeholder="Your name..." required>
+            <input type="number" id="phone" class="form-control mb-3" value="" placeholder="Functioning phone number" required>
+            <input type="text" id="place" class="form-control mb-3" value="" placeholder="where are you located?" required>
+            <button id="finalorder" onclick="amount()">Order</button>
+          </div>
+        </form>
+    </div>  
+ 
+    <p class="grandorder" style="color: white;"></p>
+    <a href="#myForm"><button id="neworder" type="button" onclick="document.location.reload(true)" style="background-color: #ffa500; "> new order</button></a>
+     </div>
+
+  </div>
+   
 </div>
+
+
 
 </div>
 <!-- end order -->
@@ -270,6 +343,12 @@ rel="stylesheet"
 type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
 ></script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
 <script src="script.js"></script>
 </body>
 </html>

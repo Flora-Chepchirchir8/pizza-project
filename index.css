@@ -65,8 +65,11 @@
     opacity: 2.5;
     border-radius: 10px;
     margin-left: 5%;
-    height: 550px;
+    height: 600px;
     width: 90%;
+  
+}
+.now{
     padding-top: 3%;  
     font-size: 28px;
 }
@@ -102,3 +105,26 @@
 .pic{
     margin-left: 10%;
 }
+#send{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+select{
+    width: 280px;
+    height: 30px;
+}
+#tebo{
+   color: white;
+  }
+  .checkout, .userdeliver{
+      display: none;
+  }
+  #home{
+    display: none;
+  }
+  #neworder, #finalorder, #grand, #home{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;  
+  }
