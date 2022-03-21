@@ -9,7 +9,7 @@ This is a pizza website that enables customers to select their flavour of choice
 In the about section, they get the description about the pizza place. It enables customers to get variety of tasty pizza at an affordable prices.
 
 ## Live Page 
-
+https://flora-chepchirchir8.github.io/pizza-project/
 
 
 ## Installation / Setup instruction
